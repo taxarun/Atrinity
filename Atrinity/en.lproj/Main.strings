@@ -1,0 +1,36 @@
+
+/* Class = "UINavigationItem"; title = "Список заявок"; ObjectID = "M0Z-Fp-3Hu"; */
+"M0Z-Fp-3Hu.title" = "Список заявок";
+
+/* Class = "UILabel"; text = "Создана: 23.01.2015"; ObjectID = "cnh-Lh-qSS"; */
+"cnh-Lh-qSS.text" = "Создана: 23.01.2015";
+
+/* Class = "UILabel"; text = "Загрузка..."; ObjectID = "dQ6-2e-j9R"; */
+"dQ6-2e-j9R.text" = "Загрузка...";
+
+/* Class = "UITextView"; text = "Загрузка..."; ObjectID = "kVx-hg-D6k"; */
+"kVx-hg-D6k.text" = "Загрузка...";
+
+/* Class = "UILabel"; text = "Описание проблемы:"; ObjectID = "kof-xc-zp7"; */
+"kof-xc-zp7.text" = "Описание проблемы:";
+
+/* Class = "UILabel"; text = "Заявка № 23:"; ObjectID = "oIL-Au-Jvd"; */
+"oIL-Au-Jvd.text" = "Заявка № 23:";
+
+/* Class = "UILabel"; text = "Загрузка..."; ObjectID = "qi6-Oe-TdY"; */
+"qi6-Oe-TdY.text" = "Загрузка...";
+
+/* Class = "UILabel"; text = "Решение проблемы:"; ObjectID = "vls-bc-oJa"; */
+"vls-bc-oJa.text" = "Решение проблемы:";
+
+/* Class = "UITextView"; text = "Загрузка..."; ObjectID = "x79-Fu-Tso"; */
+"x79-Fu-Tso.text" = "Загрузка...";
+
+/* Class = "UILabel"; text = "Загрузка..."; ObjectID = "yuU-vH-zUb"; */
+"yuU-vH-zUb.text" = "Загрузка...";
+
+/* Class = "UILabel"; text = "Описание"; ObjectID = "zO3-4x-rST"; */
+"zO3-4x-rST.text" = "Описание";
+
+/* Class = "UILabel"; text = "Загрузка..."; ObjectID = "zRf-j6-teR"; */
+"zRf-j6-teR.text" = "Загрузка...";
