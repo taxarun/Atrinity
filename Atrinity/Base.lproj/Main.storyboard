@@ -108,7 +108,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="736"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JIr-e3-w5G">
-                                        <rect key="frame" x="6" y="123" width="588" height="432.5"/>
+                                        <rect key="frame" x="6" y="123" width="588" height="440.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Загрузка..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="584" translatesAutoresizingMaskIntoConstraints="NO" id="yuU-vH-zUb">
                                                 <rect key="frame" x="251" y="15" width="85.5" height="20.5"/>
@@ -147,7 +147,7 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="560" translatesAutoresizingMaskIntoConstraints="NO" id="NX2-UJ-JWL">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NX2-UJ-JWL">
                                                 <rect key="frame" x="14" y="270" width="560" height="142.5"/>
                                                 <string key="text">   Далее указана детальная информация о сроках выполнения. Если фактический срок выполнения заявки больше планируемого, то время задержки будет указано красной гистограммой, если меньше - то зеленая гистограмма покажет выигрыш во времени. Синей гистограммой показано время до планируемого завершения работы или, если такие данные не указаны, время до фактического завершения работы.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -173,10 +173,11 @@
                                             <constraint firstItem="kVx-hg-D6k" firstAttribute="top" secondItem="kof-xc-zp7" secondAttribute="bottom" constant="8" id="mck-2e-Rew"/>
                                             <constraint firstItem="x79-Fu-Tso" firstAttribute="top" secondItem="vls-bc-oJa" secondAttribute="bottom" constant="10" id="ouu-uG-3QT"/>
                                             <constraint firstAttribute="trailing" secondItem="x79-Fu-Tso" secondAttribute="trailing" constant="14" id="pK8-BB-ih2"/>
-                                            <constraint firstAttribute="bottom" secondItem="NX2-UJ-JWL" secondAttribute="bottom" constant="20" id="qma-4j-geu"/>
+                                            <constraint firstAttribute="bottom" secondItem="NX2-UJ-JWL" secondAttribute="bottom" constant="28" id="qma-4j-geu"/>
                                             <constraint firstAttribute="trailing" secondItem="kVx-hg-D6k" secondAttribute="trailing" constant="14" id="rJt-bW-UDT"/>
                                             <constraint firstItem="kof-xc-zp7" firstAttribute="top" secondItem="yuU-vH-zUb" secondAttribute="bottom" constant="25" id="sop-tr-fEL"/>
                                             <constraint firstItem="vls-bc-oJa" firstAttribute="centerX" secondItem="JIr-e3-w5G" secondAttribute="centerX" id="yRn-6m-8od"/>
+                                            <constraint firstItem="NX2-UJ-JWL" firstAttribute="centerX" secondItem="JIr-e3-w5G" secondAttribute="centerX" id="ycU-j6-Por"/>
                                             <constraint firstItem="x79-Fu-Tso" firstAttribute="leading" secondItem="JIr-e3-w5G" secondAttribute="leading" constant="14" id="zzx-iC-d6X"/>
                                         </constraints>
                                     </view>
@@ -214,7 +215,7 @@
                                     <constraint firstItem="DNd-P6-E5F" firstAttribute="leading" secondItem="Ir7-p3-kn7" secondAttribute="leading" constant="8" id="RbW-0h-7nQ"/>
                                     <constraint firstItem="JIr-e3-w5G" firstAttribute="leading" secondItem="Ir7-p3-kn7" secondAttribute="leading" constant="6" id="bzf-UM-A6X"/>
                                     <constraint firstItem="JIr-e3-w5G" firstAttribute="top" secondItem="DNd-P6-E5F" secondAttribute="bottom" constant="15" id="cpb-pk-nHi"/>
-                                    <constraint firstAttribute="bottom" secondItem="JIr-e3-w5G" secondAttribute="bottom" constant="6" id="hBC-Vv-csv"/>
+                                    <constraint firstAttribute="bottom" secondItem="JIr-e3-w5G" secondAttribute="bottom" constant="20" id="hBC-Vv-csv"/>
                                     <constraint firstAttribute="trailing" secondItem="DNd-P6-E5F" secondAttribute="trailing" constant="8" id="p8i-dW-COk"/>
                                     <constraint firstItem="JIr-e3-w5G" firstAttribute="centerX" secondItem="Ir7-p3-kn7" secondAttribute="centerX" id="s9W-hL-4Z1"/>
                                 </constraints>
