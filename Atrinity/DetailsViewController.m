@@ -175,13 +175,11 @@
 - (void)textViewDidBeginEditing:(UITextView *)textView
 {
     [self scrollToTextView:textView];
-    NSLog(@"Begin edit");
 }
 
 - (void)textViewDidChange:(UITextView *)textView
 {
     [self scrollToTextView:textView];
-    NSLog(@"Changed®");
 }
 
 - (void)scrollToTextView: (UITextView *)textView
