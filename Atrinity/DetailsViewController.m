@@ -38,6 +38,7 @@
 - (void)UIPrepare;
 - (id)addViewAfterView: (UIView*) lastView MarginCorrect: (NSLayoutConstraint*) margin InitData: (DataForGraphs*) data;
 - (void)addDateGraphicsAfterView: (UIView*) lastView MarginCorrect: (NSLayoutConstraint*) margin;
+- (void)scrollToTextView: (UITextView *)textView;
 
 @end
 
@@ -173,20 +174,24 @@
 
 - (void)textViewDidBeginEditing:(UITextView *)textView
 {
-    CGFloat offset;
-    CGPoint cursorPosition = [textView caretRectForPosition:textView.selectedTextRange.start].origin;
-    if (cursorPosition.y == INFINITY) offset = textView.frame.size.height;
-    else offset = cursorPosition.y;
-    [self.scrollView setContentOffset:CGPointMake(0,textView.frame.origin.y + offset) animated:YES];
+    [self scrollToTextView:textView];
+    NSLog(@"Begin edit");
 }
 
 - (void)textViewDidChange:(UITextView *)textView
+{
+    [self scrollToTextView:textView];
+    NSLog(@"Changed®");
+}
+
+- (void)scrollToTextView: (UITextView *)textView
 {
     CGFloat offset;
     CGPoint cursorPosition = [textView caretRectForPosition:textView.selectedTextRange.start].origin;
     if (cursorPosition.y == INFINITY) offset = textView.frame.size.height;
     else offset = cursorPosition.y;
-    [self.scrollView setContentOffset:CGPointMake(0,textView.frame.origin.y + offset) animated:YES];
+    offset += textView.frame.origin.y + self.view.frame.size.height * 0.25;
+    [self.scrollView setContentOffset:CGPointMake(0, offset) animated:YES];
 }
 
 @end
